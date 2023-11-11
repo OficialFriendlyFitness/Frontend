@@ -1,0 +1,64 @@
+<!-- Se tomara como pagina Principiante(Default) -->
+<div class="container">
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" [routerLink]="['/rutinas/RutinaPrincipiante']" class="btn btn-primary">Rutinas</button>
+        <button type="button" [routerLink]="['/desafio/DesafioPrincipiante']" class="btn btn-primary">Desafios</button>
+    </div>
+
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Nivel
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioPrincipiante']">Principiante</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioIntermedio']">Intermedio</a></li>
+            <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioAvanzado']">Avanzado</a></li>
+        </ul>
+    </div>
+
+    <div style="text-align: center;">
+        <h1>DESAFIO - NIVEL PRINCIPIANTE</h1>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <video src="assets/images/Video13.mp4" controls id="fm-video"></video>
+                <div class="card-body">
+                    <h5 class="card-title">Retos Físicos</h5>
+                    <p class="card-text">Cinco retos físicos que pondrán a prueba tu resistencia, fuerza y habilidades
+                        deportivas</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <video src="assets/images/Video14.mp4" controls id="fm-video"></video>
+                <div class="card-body">
+                    <h5 class="card-title">Flexiones De Brazos con 2 personas</h5>
+                    <p class="card-text">Se trata de realizar el máximo número de FLEXIONES DE BRAZOS (Push Up) en 1
+                        MINUTO.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <video src="assets/images/Video15.mp4" controls id="fm-video"></video>
+                <div class="card-body">
+                    <h5 class="card-title">Flexiones De Brazos con 1 persona</h5>
+                    <p class="card-text">La flexión de brazos o push up es uno de los ejercicios más populares para
+                        fortalecer los músculos del pecho, tríceps, hombros y también para el Core.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <video src="assets/images/Video16.mp4" controls id="fm-video"></video>
+                <div class="card-body">
+                    <h5 class="card-title">Saltos comba - Flexiones De Brazos</h5>
+                    <p class="card-text">Un ejercicio de mucha sincronización, habilidad y fuerza.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

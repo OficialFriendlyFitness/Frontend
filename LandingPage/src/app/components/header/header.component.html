@@ -13,13 +13,13 @@
                     <a class="nav-link" href="#"><b>Inicio</b></a>
                 </li>
                 <li class="px-2" >
-                    <a class="nav-link" href="#" >Exploración de Rutinas</a>
+                    <a class="nav-link" [routerLink]="['/rutinas/RutinaPrincipiante']" >Exploración de Rutinas</a>
                 </li>
                 <li class="px-2">
                     <a class="nav-link" href="#">Interacción Social</a>
                 </li>
             </ul>   
         </div>
-        <button type="button" class="btn btn-secondary">Iniciar Sesion</button>
+        <button type="button" class="btn btn-secondary" [routerLink]="['iniciarSesion']">Iniciar Sesion</button>
     </div>
 </nav>
