@@ -7,6 +7,11 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
 import {NgOptimizedImage} from "@angular/common";
+
+import { RutinasComponent } from './components/rutinas/rutinas.component';
+import { RutinasIntermedioComponent } from './components/rutinas/rutinas-intermedio/rutinas-intermedio.component';
+import { RutinasAvanzadoComponent } from './components/rutinas/rutinas-avanzado/rutinas-avanzado.component';
+
 import { PerfilComponent } from './components/perfil/perfil.component';
 
 @NgModule({
@@ -15,7 +20,13 @@ import { PerfilComponent } from './components/perfil/perfil.component';
     HeaderComponent,
     FooterComponent,
     HomepageComponent,
+
+    RutinasComponent,
+    RutinasIntermedioComponent,
+    RutinasAvanzadoComponent
+
     PerfilComponent
+
   ],
     imports: [
         BrowserModule,
