@@ -14,6 +14,7 @@ import { PerfilComponent } from './components/perfil/perfil.component';
 import { DesafiosComponent } from './components/desafios/desafios.component';
 import { DesafiosIntermedioComponent } from './components/desafios/desafios-intermedio/desafios-intermedio.component';
 import { DesafiosAvanzadoComponent } from './components/desafios/desafios-avanzado/desafios-avanzado.component';
+import { app_routing } from './app.routes';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { DesafiosAvanzadoComponent } from './components/desafios/desafios-avanza
     imports: [
         BrowserModule,
         AppRoutingModule,
-        NgOptimizedImage
+        NgOptimizedImage,
+        app_routing
     ],
   providers: [],
   bootstrap: [AppComponent]
