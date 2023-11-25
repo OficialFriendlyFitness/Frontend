@@ -5,3 +5,8 @@
 .publicacion{
     margin: 20px;
 }
+
+.publicaciones{
+    text-decoration: none;
+    color: white;
+}

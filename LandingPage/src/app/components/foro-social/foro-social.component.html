@@ -5,6 +5,10 @@
     <button type="button" class="btn btn-primary mb-3" data-toggle="modal" data-target="#crearPublicacionModal">
         Crear Publicación
     </button>
+    <br>
+    <button type="button" class="btn btn-primary mb-3">
+        <a class="publicaciones" [routerLink]="['/misPublicaciones']">Mis Publicaciones</a>
+    </button>
 
     <div class="modal fade" id="crearPublicacionModal" tabindex="-1" role="dialog"
         aria-labelledby="crearPublicacionModalLabel" aria-hidden="true">
@@ -40,18 +44,29 @@
         <div class="card-body">
             <img src="assets/images/Perfil.jpeg" alt="Imagen del usuario" class="img-fluid rounded-circle"
                 style="max-width: 50px;">
-            <h5 class="card-title">Nombre del Usuario</h5>
+            <h5 class="card-title">Emilyn Sanchez</h5>
             <p class="card-text">Fecha de publicación: 20 de noviembre de 2023</p>
-            <p class="card-text">Pequeño párrafo sobre el deporte: Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.</p>
+            <p class="card-text">Quiero llevarte a mi viaje personal, donde el ejercicio grupal se convirtió en mucho
+                más que una simple rutina de fitness. Desde la primera clase, supe que esto sería algo especial, algo
+                que iría más allá de las repeticiones y los estiramientos.
+
+                El ejercicio grupal me ofreció una comunidad, un grupo de personas con objetivos similares y una pasión
+                por la salud y el bienestar. Juntos, nos apoyamos mutuamente a medida que enfrentamos los desafíos y
+                celebramos los logros. No éramos solo individuos haciendo ejercicio; éramos un equipo comprometido con
+                nuestro crecimiento personal.
+
+                La conexión social que experimenté en estas sesiones fue inspiradora. Pasamos de ser compañeros de clase
+                a amigos que comparten risas, historias y metas. La energía positiva en el grupo se convirtió en una
+                fuente constante de motivación, y cada sesión se convirtió en una oportunidad para construir relaciones
+                significativas.</p>
 
             <!-- Comentarios -->
             <div class="mt-3">
                 <h5>Comentarios</h5>
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <strong>Nombre del Comentarista</strong>
-                        <p>Contenido del comentario. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <strong>Paolo Vizconde Diaz</strong>
+                        <p>Realmente interesante</p>
                     </li>
                     <!-- Agrega más comentarios según sea necesario -->
                 </ul>
@@ -63,18 +78,24 @@
         <div class="card-body">
             <img src="assets/images/Perfil.jpeg" alt="Imagen del usuario" class="img-fluid rounded-circle"
                 style="max-width: 50px;">
-            <h5 class="card-title">Nombre del Usuario</h5>
+            <h5 class="card-title">Leonardo Hilario</h5>
             <p class="card-text">Fecha de publicación: 20 de noviembre de 2023</p>
-            <p class="card-text">Pequeño párrafo sobre el deporte: Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit.</p>
+            <p class="card-text">Hoy quiero compartir mi experiencia personal con el ejercicio grupal, una travesía que
+                ha transformado mi enfoque hacia el bienestar. Sumergirme en clases de ejercicio en grupo no solo ha
+                sido un desafío físico, sino también un viaje emocional y social que ha enriquecido mi vida de maneras
+                inesperadas.
+
+                Desde la primera clase, me di cuenta de que el ejercicio grupal va más allá de los simples movimientos
+                físicos. Es una oportunidad para conectarse con otras personas que comparten objetivos similares.
+            </p>
 
             <!-- Comentarios -->
             <div class="mt-3">
                 <h5>Comentarios</h5>
                 <ul class="list-group">
                     <li class="list-group-item">
-                        <strong>Nombre del Comentarista</strong>
-                        <p>Contenido del comentario. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <strong>Emilyn Sanchez</strong>
+                        <p>Me parece interesante</p>
                     </li>
                     <!-- Agrega más comentarios según sea necesario -->
                 </ul>
