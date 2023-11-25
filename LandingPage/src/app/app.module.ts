@@ -16,6 +16,7 @@ import { DesafiosIntermedioComponent } from './components/desafios/desafios-inte
 import { DesafiosAvanzadoComponent } from './components/desafios/desafios-avanzado/desafios-avanzado.component';
 import { ForoSocialComponent } from './components/foro-social/foro-social.component';
 import { MisPublicacionesComponent } from './components/mis-publicaciones/mis-publicaciones.component';
+import { InicioComponent } from './components/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { MisPublicacionesComponent } from './components/mis-publicaciones/mis-pu
     DesafiosIntermedioComponent,
     DesafiosAvanzadoComponent,
     ForoSocialComponent,
-    MisPublicacionesComponent
+    MisPublicacionesComponent,
+    InicioComponent
   ],
     imports: [
         BrowserModule,
