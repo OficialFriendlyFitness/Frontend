@@ -1,18 +1,32 @@
 <div class="container">
-    <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" [routerLink]="['/rutinas/RutinaPrincipiante']" class="btn btn-primary">Rutinas</button>
-        <button type="button" [routerLink]="['/desafio/DesafioPrincipiante']" class="btn btn-primary">Desafios</button>
-    </div>
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="container">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" [routerLink]="['/rutinas/RutinaPrincipiante']"
+                    class="btn btn-primary">Rutinas</button>
+                <button type="button" [routerLink]="['/desafio/DesafioPrincipiante']"
+                    class="btn btn-primary">Desafios</button>
+            </div>
+        </div>
 
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Nivel
+        <div class="d-flex align-items-center">
+            <!-- Utilizamos d-flex y align-items-center para alinear verticalmente los elementos dentro de este div -->
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Nivel
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioPrincipiante']">Principiante</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioIntermedio']">Intermedio</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioAvanzado']">Avanzado</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary" style="margin-left: auto;">
+            <a class="perfil" [routerLink]="['/perfil']">Perfil</a>
         </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioPrincipiante']">Principiante</a></li>
-            <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioIntermedio']">Intermedio</a></li>
-            <li><a class="dropdown-item" [routerLink]="['/desafio/DesafioAvanzado']">Avanzado</a></li>
-        </ul>
     </div>
 
     <div style="text-align: center;">

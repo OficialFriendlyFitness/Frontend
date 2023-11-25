@@ -12,14 +12,24 @@
                 <li class="px-2">
                     <a class="nav-link" href="#"><b>Inicio</b></a>
                 </li>
-                <li class="px-2" >
-                    <a class="nav-link" [routerLink]="['/rutinas/RutinaPrincipiante']" >Exploración de Rutinas</a>
+                <li class="px-2">
+                    <a class="nav-link" [routerLink]="['/rutinas/RutinaPrincipiante']">Exploración de Rutinas</a>
                 </li>
                 <li class="px-2">
-                    <a class="nav-link" href="#">Interacción Social</a>
+                    <div class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" id="interaccionSocialDropdown"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Interacción Social
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="interaccionSocialDropdown">
+                            <li><a class="dropdown-item" [routerLink]="['/foroSocial']">Foro Social</a></li>
+                            <li><a class="dropdown-item" href="#">Eventos</a></li>
+                        </ul>
+                    </div>
                 </li>
-            </ul>   
+            </ul>
         </div>
-        <button type="button" class="btn btn-secondary" [routerLink]="['iniciarSesion']">Iniciar Sesion</button>
+
+        <button type="button" class="btn btn-secondary" [routerLink]="['iniciarSesion']">Iniciar Sesión</button>
     </div>
 </nav>

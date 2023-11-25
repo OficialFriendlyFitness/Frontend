@@ -1,11 +1,16 @@
-.card{
+.card {
     margin: 50px;
 }
 
-.dropdown{
+.dropdown {
     margin: 10px;
 }
 
-.btn-group{
+.btn-group {
     margin: 10px;
+}
+
+.perfil {
+    color: white;
+    text-decoration: none;
 }
