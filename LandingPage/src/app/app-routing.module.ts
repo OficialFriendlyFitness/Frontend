@@ -12,6 +12,7 @@ import { DesafiosComponent } from './components/desafios/desafios.component';
 import { DesafiosIntermedioComponent } from './components/desafios/desafios-intermedio/desafios-intermedio.component';
 import { DesafiosAvanzadoComponent } from './components/desafios/desafios-avanzado/desafios-avanzado.component';
 import { ForoSocialComponent } from './components/foro-social/foro-social.component';
+import { MisPublicacionesComponent } from './components/mis-publicaciones/mis-publicaciones.component';
 
 const routes: Routes = [
   { path: 'homepage', component: HomepageComponent },
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'desafio/DesafioIntermedio', component: DesafiosIntermedioComponent },
   { path: 'desafio/DesafioAvanzado', component: DesafiosAvanzadoComponent },
   { path: 'foroSocial', component: ForoSocialComponent },
+  { path: 'misPublicaciones', component: MisPublicacionesComponent },
   { path: "", component: HomepageComponent },
 ];
 

@@ -15,6 +15,7 @@ import { DesafiosComponent } from './components/desafios/desafios.component';
 import { DesafiosIntermedioComponent } from './components/desafios/desafios-intermedio/desafios-intermedio.component';
 import { DesafiosAvanzadoComponent } from './components/desafios/desafios-avanzado/desafios-avanzado.component';
 import { ForoSocialComponent } from './components/foro-social/foro-social.component';
+import { MisPublicacionesComponent } from './components/mis-publicaciones/mis-publicaciones.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ForoSocialComponent } from './components/foro-social/foro-social.compon
     DesafiosComponent,
     DesafiosIntermedioComponent,
     DesafiosAvanzadoComponent,
-    ForoSocialComponent
+    ForoSocialComponent,
+    MisPublicacionesComponent
   ],
     imports: [
         BrowserModule,
